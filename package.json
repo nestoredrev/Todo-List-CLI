@@ -1,0 +1,21 @@
+{
+  "name": "01-listatareas",
+  "version": "1.0.0",
+  "description": "Todo List o lista de tareas con linea de comandos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -I index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nestor Edrev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dateformat": "^4.5.1",
+    "inquirer": "^8.0.0",
+    "mongoose": "^5.12.0"
+  }
+}
